@@ -82,8 +82,12 @@ def handle_md_images(md_name):
 
 
 if __name__ == '__main__':
-    md_name = r'test'
-    for file in os.listdir(md_path):
-        if file.endswith('.md'):
-            md_name = file.split('.')[:-1]
-            handle_md_images('.'.join(md_name))
+
+    if 1:
+        md_name = r'C2BP-Params'
+        handle_md_images(md_name)
+    else:
+        for file in os.listdir(md_path):
+            if file.endswith('.md'):
+                md_name = file.split('.')[:-1]
+                handle_md_images('.'.join(md_name))
