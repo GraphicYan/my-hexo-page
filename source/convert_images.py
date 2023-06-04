@@ -80,11 +80,14 @@ def handle_md_images(md_name):
     except FileNotFoundError as e:
         print(e)
 
-
+import sys
 if __name__ == '__main__':
 
     if 1:
-        md_name = r'Build-WebRTC-For-MSVC'
+        if sys.argv[1] is not "":
+            md_name = sys.argv[1]
+        else:
+            md_name = r'Build-WebRTC-For-MSVC'
         handle_md_images(md_name)
     else:
         for file in os.listdir(md_path):
