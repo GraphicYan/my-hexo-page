@@ -84,7 +84,7 @@ def handle_md_images(md_name):
 if __name__ == '__main__':
 
     if 1:
-        md_name = r'C2BP-Params'
+        md_name = r'Build-WebRTC-For-MSVC'
         handle_md_images(md_name)
     else:
         for file in os.listdir(md_path):
