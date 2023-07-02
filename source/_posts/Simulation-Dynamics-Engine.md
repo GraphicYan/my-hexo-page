@@ -1,7 +1,7 @@
 ---
 title: 仿真及动力学系统综述
 layout: Simulation Dynamics Engine
-toc: false
+toc: true
 top: true
 date: 2023/06/04 11:23:25
 ---

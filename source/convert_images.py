@@ -8,7 +8,7 @@ prefix = 'https://intranetproxy.alipay.com/skylark'
 postfix = '#'
 local_img_folder = 'assets/post_images/'
 md_path  = r'/Users/yan/Blog/GithubHexoBlog/source/_posts/'
-local_img_prefix = r'/Users/yan/Blog/GithubHexoBlog/public/'
+local_img_prefix = r'/Users/yan/Blog/GithubHexoBlog/source/'
 
 def gen_image_name_from_idx(idx, img_folder_path, postfix = 'png'):
     if idx < 10:
@@ -87,7 +87,7 @@ if __name__ == '__main__':
         if sys.argv[1] is not "":
             md_name = sys.argv[1]
         else:
-            md_name = r'Build-WebRTC-For-MSVC'
+            md_name = r'Collaborative-Engine'
         handle_md_images(md_name)
     else:
         for file in os.listdir(md_path):

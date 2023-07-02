@@ -1,7 +1,7 @@
 ---
 title: Cook-Torrance的BRDF
 layout: Cook-Torrance-BRDF
-toc: false
+toc: true
 date: 2021/04/02 15:23:25
 ---
 

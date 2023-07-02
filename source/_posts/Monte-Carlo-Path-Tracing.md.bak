@@ -2,7 +2,7 @@
 title: 蒙特卡洛路径追踪
 layout: Monte Carlo Path Tracing
 date: 2021/04/09 20:46:25
-toc: false
+toc: true
 ---
 
 <a name="XFBgD"></a>

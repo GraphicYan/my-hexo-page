@@ -1,7 +1,7 @@
 ---
 title: 混合虚拟制片
 layout: Mixed Virtual Production
-toc: false
+toc: true
 top: true
 ---
 

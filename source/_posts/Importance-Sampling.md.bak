@@ -1,7 +1,7 @@
 ---
 title: 重要性采样
 layout: Importance-Sampling
-toc: false
+toc: true
 date: 2021/04/17 19:33:15
 ---
 
