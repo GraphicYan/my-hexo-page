@@ -84,10 +84,10 @@ import sys
 if __name__ == '__main__':
 
     if 1:
-        if sys.argv[1] is not "":
+        if len(sys.argv) > 1 and sys.argv[1] is not "":
             md_name = sys.argv[1]
         else:
-            md_name = r'Collaborative-Engine'
+            md_name = r'ML-Deformer'
         handle_md_images(md_name)
     else:
         for file in os.listdir(md_path):
