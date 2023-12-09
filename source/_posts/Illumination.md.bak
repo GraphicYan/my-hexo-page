@@ -10,7 +10,7 @@ date: 2022/03/18 10:23:29
 控制曝光，本质是在空间和时间上控制环境光照抵达传感器的量。
 没有环境光照，那一切都白谈，那我们不妨来了解一下关于环境光照（Scene Illumination）的一些基础概念，这些概念并不需要死记硬背，但需要理解。
 理解了这些概念，就像“打通任督二脉”，知道为什么，就能在各种环境下去指导你怎么做，光看那些 xx 老师教你拍 ABC 题材、DEF 场景参数应该怎么设置，是没有办法通用的。
-![image.png](assets/post_images/Illumination/image_000.png#clientId=u9178adbc-8119-4&from=paste&id=u0a0b980a&originHeight=960&originWidth=1440&originalType=url&ratio=1&rotation=0&showTitle=false&size=167927&status=done&style=none&taskId=u013e63b2-fb2a-41e1-93af-33430bdc576&title=)
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/390654/1654502811303-a9a09acd-b325-4300-bb99-dac9fe894c13.png#clientId=u9178adbc-8119-4&from=paste&id=u0a0b980a&originHeight=960&originWidth=1440&originalType=url&ratio=1&rotation=0&showTitle=false&size=167927&status=done&style=none&taskId=u013e63b2-fb2a-41e1-93af-33430bdc576&title=)
 今晚的故事从一根蜡烛开始。
 假设在一个全黑的环境里，你只有一支蜡烛——它在安静地燃烧，同时放出大量的热（部分以红外线的形式）、可见光，但是影响我们对它亮度感知的，只有可见光波段的强度。
 这支蜡烛在可见光波段的光照强度（intensity）是 1 cd 左右。
@@ -20,7 +20,7 @@ cd 是坎德拉（Candela），这个词来自拉丁语的蜡烛，它是国际�
 假如你用一张完美的黑纸挡掉了蜡烛的一半，那么这个时候环境里只剩下 6 流明的光通量，但光源本身的强度保持 1cd 不变。
 你可能注意到了，流明并没有把距离光源的距离考虑进去，距离光源越近，每球面度的实际面积越小，实际上能量是更集中的，那么要描述这个概念，我们要引入“照度”（Illuminance），单位是勒克斯，勒克斯（Lux，lx）。
 1 勒克斯是当每单位面积（1 平方米）受到每单位光通量（1 流明）时的照度，根据定义，1lux 即当光源强度为 1cd 时，距离光源 1m 的照度。
-![image.png](assets/post_images/Illumination/image_001.png#clientId=u9178adbc-8119-4&from=paste&id=ud529d51f&originHeight=319&originWidth=479&originalType=url&ratio=1&rotation=0&showTitle=false&size=53556&status=done&style=none&taskId=u86e5cda9-39d5-48aa-afa2-27c11c8e63c&title=)
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/390654/1654502811316-6241166e-a3bb-4e14-ad10-8be5cdd0c88f.png#clientId=u9178adbc-8119-4&from=paste&id=ud529d51f&originHeight=319&originWidth=479&originalType=url&ratio=1&rotation=0&showTitle=false&size=53556&status=done&style=none&taskId=u86e5cda9-39d5-48aa-afa2-27c11c8e63c&title=)
 点光源、球体面积、半径，看到这些词，数学好的同学现在已经要抢答了：**平方反比定律**！
 如上图所示，同样强度的光源，随着离光源的距离增加，尽管流明数不变，但是照度一直都在减小。
 接下来，我们终于可以谈论亮度了——Luminance，或者有时也被称为 Brightness。

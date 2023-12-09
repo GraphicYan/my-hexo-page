@@ -87,7 +87,7 @@ import sys
 if __name__ == '__main__':
 
     if 1:
-        if len(sys.argv) > 1 and sys.argv[1] is not "":
+        if len(sys.argv) > 1 and sys.argv[1] != "":
             md_name = sys.argv[1]
         else:
             md_name = r'DS-VS-DL'
