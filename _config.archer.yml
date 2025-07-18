@@ -1,6 +1,6 @@
 # ========== Profile ========== #
 # avatar
-avatar: /avatar/MyPhoto.jpeg
+avatar: /images/avatar.jpg
 # author name
 author: Yan Zhang
 # signature
@@ -10,7 +10,7 @@ social:
   email: yanzhang.cg@gmail.com
   github: https://github.com/GraphicYan
   # wechat should be a path of qr-code image path
-  wechat: /assets/wechat.png
+  wechat: /images/wechat.jpg
   # qq should be a path of qr-code image path
   qq: 
   telegram: 
@@ -62,14 +62,14 @@ profile_links:
 
 # ========== Site ========== #
 # title of the site (good for SEO)
-SEO_title: Yan's Studio
+SEO_title: Yan's World
 # keywords for site (good for SEO)
 SEO_keywords:
   - hexo
   - 'hexo-theme'
   - 'hexo-blog'
 # main title shown in header image
-main_title: Yan's Studio.
+main_title: Yan's World.
 # subtitle
 subtitle: Do not go gentle into that good night
 # site haeder image
