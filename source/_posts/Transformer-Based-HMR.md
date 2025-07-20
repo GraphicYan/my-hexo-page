@@ -1,6 +1,6 @@
 ---
 title: 基于Transformer的人体姿态重建：技术实践与原理详解
-layout: Transformer Based Human Pose Estimation
+layout: Transformer Based Human Pose Estimation -- Theory
 toc: true
 top: true
 date: 2024/07/04 11:23:25

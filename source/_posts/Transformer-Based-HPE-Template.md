@@ -1,6 +1,6 @@
 ---
 title: 基于Transformer的人体姿态重建（二）：实现模板
-layout: Transformer Based Human Pose Estimation
+layout: Transformer Based Human Pose Estimation -- Implement Template
 toc: true
 top: true
 date: 2024/08/09 20:25:09

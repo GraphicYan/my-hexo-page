@@ -1,6 +1,6 @@
 ---
 title: 基于Transformer的人体姿态重建（四）：引入高精度的手部姿态
-layout: Transformer Based Human Pose Estimation
+layout: Transformer Based Human Pose Estimation -- Add Hands
 toc: true
 top: true
 date: 2024/11/23 23:08:13
