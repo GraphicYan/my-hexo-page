@@ -3,6 +3,7 @@ title: 光通量、光强和照度
 layout: Illumination
 toc: true
 top: true
+tag: Rendering
 date: 2022/03/18 10:23:29
 ---
 

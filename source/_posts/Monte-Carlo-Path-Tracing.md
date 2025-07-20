@@ -3,6 +3,7 @@ title: 蒙特卡洛路径追踪
 layout: Monte Carlo Path Tracing
 date: 2021/04/09 20:46:25
 toc: true
+tag: Rendering
 ---
 
 <a name="XFBgD"></a>

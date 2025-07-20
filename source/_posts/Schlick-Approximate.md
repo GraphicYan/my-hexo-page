@@ -3,6 +3,7 @@ title: Schilick的近似方法
 layout: Schlick-Approximate
 toc: true
 top: true
+tag: Rendering
 date: 2022/06/29 19:23:29
 ---
 

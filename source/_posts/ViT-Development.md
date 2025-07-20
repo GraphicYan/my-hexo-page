@@ -3,6 +3,7 @@ title: 视觉Transformer发展简史：从ViT到DINOv2的技术演进
 layout: ViT History -- From ViT to DINOv2
 toc: true
 top: true
+tag: AI
 date: 2025/03/28 23:18:59
 ---
 

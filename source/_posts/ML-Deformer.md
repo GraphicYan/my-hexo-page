@@ -3,6 +3,7 @@ title: 基于机器学习的物理变形器
 layout: Machine Learning Deformer
 toc: true
 top: true
+tag: Animations
 date: 2023/07/08 10:45:15
 ---
 

@@ -2,6 +2,7 @@
 title: Cook-Torrance的BRDF
 layout: Cook-Torrance-BRDF
 toc: true
+tag: Rendering
 date: 2021/04/02 15:23:25
 ---
 

@@ -3,6 +3,7 @@ title: 基于动力学的骨骼动画技术综述
 layout: Physics-based Dynamic Bones
 toc: true
 top: true
+tag: Animations
 date: 2023/07/02 15:17:15
 ---
 

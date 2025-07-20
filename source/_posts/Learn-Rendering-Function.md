@@ -2,6 +2,7 @@
 title: 理解渲染方程
 layout: Learn-Rendering-Function
 toc: true
+tag: Rendering
 date: 2021/03/29 14:23:29
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: 基于Transformer的人体姿态重建（三）：几种SOTA工作的详细解析与未来展望
-layout: Transformer Based Human Pose Estimation
+layout: Transformer Based Human Pose Estimation -- Some SOTAs
 toc: true
 top: true
+tag: AI
 date: 2024/10/05 15:56:53
 ---
 

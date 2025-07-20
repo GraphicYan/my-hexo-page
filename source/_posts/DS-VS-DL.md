@@ -3,6 +3,7 @@ title: 延迟渲染Vs延迟光照
 layout: DS-VS-DL
 toc: true
 top: true
+tag: Rendering
 date: 2021/12/13 11:23:29
 ---
 
