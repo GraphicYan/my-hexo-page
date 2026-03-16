@@ -1,6 +1,6 @@
 # ========== Profile ========== #
 # avatar
-avatar: /images/avatar.jpg
+avatar: /avatar/MyPhoto.jpeg
 # author name
 author: Yan Zhang
 # signature
@@ -10,7 +10,7 @@ social:
   email: yanzhang.cg@gmail.com
   github: https://github.com/GraphicYan
   # wechat should be a path of qr-code image path
-  wechat: /images/wechat.jpg
+  wechat: /assets/wechat.png
   # qq should be a path of qr-code image path
   qq: 
   telegram: 

@@ -3,7 +3,7 @@ title: Vision Transformer (ViT) 详细技术文档
 layout: Transformer Based Human Pose Estimation
 toc: true
 top: true
-tag: AI
+tag: 3D Vision
 date: 2024/06/08 10:25:09
 ---
 
